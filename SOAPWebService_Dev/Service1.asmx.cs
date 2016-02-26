@@ -18,11 +18,9 @@ namespace SOAPWebService_Dev
     {
 
         [WebMethod]
-        public string HelloWorld()
+        public string sayHello(string userName)
         {
-            //test
-            //teset
-            return "Hello World";
+            return "Hello: " + userName;
         }
     }
 }
